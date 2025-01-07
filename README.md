@@ -46,9 +46,15 @@ Key features include:
 ## Project Directory Structure
 ```
 ├── src
-│   ├── Reciver.c        # Hamming Code encoding and decoding implementation
-│   ├── Transmitter.c   # I2C protocol implementation
-│   └── Tx_ps2_keyboard.c         # PS/2 keyboard interface driver
+│   ├── Reciver   
+|   |   ├── Reciver.c
+|   |   └── hamming_decode.h
+│   ├── Transmitter      
+|   |   ├── Tx.c
+|   |   └── hamming_encode.h
+│   ├── Ps2final    
+|   |   ├── Reciver.c
+|   |   └── hamming_encode.h
 ```
 
 ## Future Enhancements
